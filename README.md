@@ -39,6 +39,6 @@ sudo cp postgresql-14-1C /etc/dinit.d/postgresql-14-1C
 
 sudo dinitctl enable postgresql-14-1C
 
-#for systemd unit will be
+#for systemd unit will be:
 
 #sudo systemctl enable postgresql-14.service
