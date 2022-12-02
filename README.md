@@ -13,9 +13,9 @@ yay -U postgresql-14_5-3-1C/postgresql-14.5-3.1C_x86_64/*.pkg.tar.zst
 
 yay -U postgresql-14_5-3-1C/postgresql-14.5-3.1C_x86_64_addon/*.pkg.tar.zst
 
-#**4 create database folder in separate drive**
+#**4 create database folder in separate drive** where '/home/admin/Data' is mount point for drive
 
-mkdir /home/admin/Data/DATABASE/PostgreDB/
+mkdir -p /home/admin/Data/DATABASE/PostgreDB/
 
 #allow postgres user modify files on new drive
 
