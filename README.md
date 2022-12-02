@@ -17,7 +17,7 @@ yay -U postgresql-14_5-3-1C/postgresql-14.5-3.1C_x86_64_addon/*.pkg.tar.zst
 
 mkdir -p /home/admin/Data/DATABASE/PostgreDB/
 
-#allow postgres user modify files on new drive
+#allow postgres user modify files on new drive (if mountpoint of new drive is in home directory - we must allow all our home directory)
 
 sudo setfacl -m u:postgres:rwx /home/admin
 
