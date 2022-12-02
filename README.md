@@ -1,4 +1,4 @@
-#postgresql-14_5-3-1C
+# postgresql-14_5-3-1C
 #PostgreSQL packages patched for 1C on Arch-based distributions
 
 #1 clone repo
