@@ -3,7 +3,7 @@
 
 #**1 clone repo**
 
-git clone https://github.com/boris3812/postgresql-14_5-3-1C.git
+git clone https://github.com/boris3812/postgresql-14_5-3-1C-arch.git
 
 #**2 install postgresql server**
 
