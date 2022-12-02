@@ -21,9 +21,10 @@ mkdir -p /home/admin/Data/DATABASE/PostgreDB/
 
 sudo setfacl -m u:postgres:rwx /home/admin
 
-#make owned DATA folder for postgres user
+#make owned DATA folder for postgres user (this folder we also indicate in ExecStart command in our postgre service unit)
 
 sudo chown postgres:postgres /home/admin/Data/DATABASE/PostgreDB/
+
 suod chmod 750 /home/admin/Data/DATABASE/PostgreDB/
 
 #**5 enable postgresql service**
