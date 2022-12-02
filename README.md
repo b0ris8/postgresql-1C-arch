@@ -1,7 +1,7 @@
 # postgresql-14_5-3-1C-arch
 #PostgreSQL packages patched for 1C Enterprise on Arch-based distributions 
 
-#(these are rpm packages from oficial site 1C Enterprise, converted via utility 'rpmtoarch' for installing on Arch-based distributions with pacman or yay command)
+#(these are rpm packages from oficial site 1C Enterprise, converted via utility 'rpmtoarch' for installing on Arch-based distributions with **pacman** or **yay** command)
 
 #**0 additional libs needed to start current version postgresql**
 
