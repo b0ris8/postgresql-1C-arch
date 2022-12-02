@@ -16,6 +16,7 @@ yay -U postgresql-14_5-3-1C/postgresql-14.5-3.1C_x86_64_addon/*.pkg.tar.zst
 #4 enable postgresql service
 
 sudo cp postgresql-14-1C /etc/dinit.d/postgresql-14-1C
+
 sudo dinitctl enable postgresql-14-1C
 
 #for systemd unit
