@@ -1,6 +1,10 @@
 # postgresql-14_5-3-1C-arch
 #PostgreSQL packages patched for 1C Enterprise on Arch-based distributions
 
+#**0 additional libs needed to start current version postgresql**
+
+yay -S libicu50 libldap24 enchant1.6
+
 #**1 clone repo**
 
 git clone https://github.com/boris3812/postgresql-14_5-3-1C-arch.git
