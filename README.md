@@ -31,7 +31,7 @@ sudo setfacl -m u:postgres:rwx /home/admin
 
 sudo chown postgres:postgres /home/admin/Data/DATABASE/PostgreDB/
 
-suod chmod 750 /home/admin/Data/DATABASE/PostgreDB/
+sudo chmod 750 /home/admin/Data/DATABASE/PostgreDB/
 
 #**5 enable postgresql service**
 
