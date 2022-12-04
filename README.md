@@ -19,7 +19,7 @@ yay -U postgresql-14_5-3-1C/postgresql-14.5-3.1C_x86_64/*.pkg.tar.zst
 
 yay -U postgresql-14_5-3-1C/postgresql-14.5-3.1C_x86_64_addon/*.pkg.tar.zst
 
-#**4 - create database folder in separate drive** for example  '/home/admin/Data' is mount point for drive
+#**4 - create database folder (PGDATA) in separate drive** for example  '/home/admin/Data' is mount point for drive
 
 mkdir -p /home/admin/Data/DATABASE/PostgreDB/
 
@@ -27,7 +27,7 @@ mkdir -p /home/admin/Data/DATABASE/PostgreDB/
 
 sudo setfacl -m u:postgres:rwx /home/admin
 
-#make owned DATA folder for postgres user (this folder we also indicate in ExecStart command in our postgre service unit)
+#make owned PGDATA folder for postgres user (this folder we also indicate in ExecStart command in our postgre service unit)
 
 sudo chown postgres:postgres /home/admin/Data/DATABASE/PostgreDB/
 
