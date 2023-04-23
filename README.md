@@ -20,11 +20,11 @@ sudo cp postgresql-1C-arch/libs/openssl10/usr/lib64/  /usr/lib/
 ```
 >#**2 - install postgresql server**
 ```bash
-yay -U postgresql-1C-arch/postgresql-14.5-3.1C_x86_64/*.pkg.tar.zst
+yay -U postgresql-1C-arch/postgresql-1C/15.2-1_x86_64_server/*.pkg.tar.zst
 ```
 >#**3 - install postgresql addons**
 ```bash
-yay -U postgresql-1C-arch/postgresql-14.5-3.1C_x86_64_addon/*.pkg.tar.zst
+yay -U postgresql-1C-arch/postgresql-1C/15.2-1_x86_64_addon/*.pkg.tar.zst
 ```
 >#**4 - create database folder (PGDATA) in separate drive** for example  '/home/admin/Data' is mount point for drive
 ```bash
@@ -42,11 +42,11 @@ sudo chmod 750 /home/admin/Data/DATABASE/PostgreDB/
 ```
 >#**5 - enable postgresql service**
 ```bash
-sudo cp postgresql-14-1C /etc/dinit.d/postgresql-14-1C
+sudo cp postgresql-15-1C /etc/dinit.d/postgresql-15-1C
 
-sudo dinitctl enable postgresql-14-1C
+sudo dinitctl enable postgresql-15-1C
 ```
 >#for systemd unit will be:
 ```bash
-#sudo systemctl enable postgresql-14.service
+#sudo systemctl enable postgresql-15.service
 ```
