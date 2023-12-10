@@ -5,7 +5,7 @@
 
 >#**0 - clone repo**
 ```bash
-git clone https://github.com/boris3812/postgresql-1C-arch.git
+git clone https://github.com/bor-1s/postgresql-1C-arch.git
 ```
 
 >#**1 - additional libs needed to start current version postgresql**
