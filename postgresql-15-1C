@@ -1,0 +1,5 @@
+type            = process
+command         = sudo -u postgres /usr/pgsql-14/bin/postmaster -D /home/admin/Data/DATABASE/PostgreDB
+smooth-recovery = true
+depends-on      = loginready
+logfile         = /var/log/dinit/postgresql-14-1C.log
