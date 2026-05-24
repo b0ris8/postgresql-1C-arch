@@ -1,0 +1,6 @@
+type            = process
+command         = /usr/pgsql-18/bin/postgres -D /home/admin/Data/DATABASE/PostgreDB
+smooth-recovery = true
+run-as = postgres
+depends-on      = tempfs-server
+logfile         = /var/log/dinit/postgresql-18-1C.log
