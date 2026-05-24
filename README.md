@@ -20,11 +20,19 @@ sudo cp postgresql-1C-arch/libs/openssl10/usr/lib64/  /usr/lib/
 ```
 >#**2 - install postgresql server**
 ```bash
+<<<<<<< HEAD
 yay -U postgresql-1C-arch/postgresql-1C/15.2-1_x86_64_server/*.pkg.tar.zst
 ```
 >#**3 - install postgresql addons**
 ```bash
 yay -U postgresql-1C-arch/postgresql-1C/15.2-1_x86_64_addon/*.pkg.tar.zst
+=======
+yay -U postgresql-1C-arch/postgresql-1C-pkgs/18.1-2_x86_64_server/*.pkg.tar.zst
+```
+>#**3 - install postgresql addons**
+```bash
+yay -U postgresql-1C-arch/postgresql-1C-pkgs/18.1-2_x86_64_addon/*.pkg.tar.zst
+>>>>>>> 830e359 (update to 18.1.2 version)
 ```
 >#**4 - create database folder (PGDATA) in separate drive** for example  '/home/admin/Data' is mount point for drive
 ```bash
